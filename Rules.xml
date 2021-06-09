@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rules SYSTEM "DTD.dtd">
+<?xml-stylesheet type='text/xsl' href='XSL.xsl'?>
+<rules name="Standart">
+  <Units>
+    <Unit>
+      <Name>T-34 mod. 1940</Name>
+      <Side>1</Side>
+      <Type>F</Type>
+      <Price>35</Price>
+      <Count>3</Count>
+      <Defence>3</Defence>
+      <Ammunition>
+        <Ammo>10</Ammo>
+      </Ammunition>
+      <SpecialProperty>A B</SpecialProperty>
+      <Status>1(1) 2(1)</Status>
+      <Image>1.jpg</Image>
+      <Accuracy>2 2 2 1 1</Accuracy>
+      <FireIntensity>
+        <A>11 9 7</A>
+        <B>12 10 8</B>
+        <C>14 13 12</C>
+        <D>13 12 11</D>
+        <E>11 10 9</E>
+        <F>10 9 8</F>
+        <G>9 8 7</G>
+      </FireIntensity>
+      <Order>A B C P R V AE AO AQ AP</Order>
+    </Unit>
+    <Unit>
+      <Name>Zis-5 3 t.</Name>
+      <Side>1</Side>
+      <Type>C</Type>
+      <Price>15</Price>
+      <Count>6</Count>
+      <Defence>0</Defence>
+      <Ammunition>
+        <Ammo>30</Ammo>
+        <Mine>3</Mine>
+      </Ammunition>
+      <SpecialProperty></SpecialProperty>
+      <Status>1(0) 3 4 5</Status>
+      <Image>2.jpg</Image>
+      <Accuracy></Accuracy>
+      <FireIntensity></FireIntensity>
+      <Order>AL AM AE AF AB AN AO AP</Order>
+    </Unit>
+    <Unit>
+      <Name>53-K 45mm</Name>
+      <Side>1</Side>
+      <Type>B</Type>
+      <Price>17</Price>
+      <Count>3</Count>
+      <Defence>1</Defence>
+      <Ammunition>
+        <Ammo>10</Ammo>
+      </Ammunition>
+      <SpecialProperty>C D</SpecialProperty>
+      <Status>1(1) 2(1) 3 6(2)</Status>
+      <Image>3.jpg</Image>
+      <Accuracy>2 2 2 1 1</Accuracy>
+      <FireIntensity>
+        <A>10 8 6</A>
+        <B>9 8 7</B>
+        <C>10 9 18</C>
+        <D>8 7 6</D>
+        <E>7 6 5</E>
+        <F>5 4 3</F>
+        <G>3 2 1</G>
+      </FireIntensity>
+      <Order>A B C R S T AB AE U AN</Order>
+    </Unit>
+    <Unit>
+      <Name>Maxim</Name>
+      <Side>1</Side>
+      <Type>A</Type>
+      <Price>12</Price>
+      <Count>2</Count>
+      <Defence>1</Defence>
+      <Ammunition>
+        <Ammo>10</Ammo>
+      </Ammunition>
+      <SpecialProperty>C D</SpecialProperty>
+      <Status>1(2) 2(1) 7 6(2)</Status>
+      <Image>4.jpg</Image>
+      <Accuracy>3 3 2 1 </Accuracy>
+      <FireIntensity>
+        <A>10 6</A>
+        <B>10 5</B>
+        <C>9 5</C>
+        <D>2 1</D>
+        <E>2 1</E>
+        <F>1 1</F>
+      </FireIntensity>
+      <Order>A B C R V AL AM AE S T U AN AO</Order>
+    </Unit>
+    <Unit>
+      <Name>Solders</Name>
+      <Side>1</Side>
+      <Type>A</Type>
+      <Price>10</Price>
+      <Count>5</Count>
+      <Defence>1</Defence>
+      <Ammunition>
+        <Ammo>10</Ammo>
+      </Ammunition>
+      <SpecialProperty>D</SpecialProperty>
+      <Status>1(1) 2(1) 7 6(2)</Status>
+      <Image>5.jpg</Image>
+      <Accuracy>2 2 1 1 </Accuracy>
+      <FireIntensity>
+        <A>8 6 4 3 2</A>
+        <B>8 6 4 2 1</B>
+        <C>7 5 4 3 2</C>
+        <D>6 4 3 2 1</D>
+        <E>5 4 3 2 1</E>
+        <F>4 3 2 1 1</F>
+        <H>2 2 1 1 1</H>
+      </FireIntensity>
+      <Order>A B C P R V AL AM AE AG AN AO</Order>
+    </Unit>
+    <Unit>
+      <Name>Pz.Kpfw. III ausf. G</Name>
+      <Side>2</Side>
+      <Type>F</Type>
+      <Price>28</Price>
+      <Count>3</Count>
+      <Defence>2</Defence>
+      <Ammunition>
+        <Ammo>10</Ammo>
+      </Ammunition>
+      <SpecialProperty>A B</SpecialProperty>
+      <Status>1(1) 2(1)</Status>
+      <Image>6.jpg</Image>
+      <Accuracy>2 2 2 1 1 </Accuracy>
+      <FireIntensity>
+        <A>10 8 6</A>
+        <B>11 9 7</B>
+        <C>12 11 10</C>
+        <D>11 10 9</D>
+        <E>9 8 7</E>
+        <F>6 5 4</F>
+        <G>4 3 2</G>
+      </FireIntensity>
+      <Order>A B C P R V AE AO AQ</Order>
+    </Unit>
+    <Unit>
+      <Name>Pz.Kpfw. II</Name>
+      <Side>2</Side>
+      <Type>E</Type>
+      <Price>22</Price>
+      <Count>3</Count>
+      <Defence>2</Defence>
+      <Ammunition>
+        <Ammo>10</Ammo>
+      </Ammunition>
+      <SpecialProperty>A B</SpecialProperty>
+      <Status>1(2) 2(1)</Status>
+      <Image>7.jpg</Image>
+      <Accuracy>3 2 2 1</Accuracy>
+      <FireIntensity>
+        <A>11 10 9</A>
+        <B>11 10 9</B>
+        <C>12 11 10</C>
+        <D>8 7 6</D>
+        <E>7 6 5</E>
+        <F>4 3 2</F>
+        <G>3 2 1</G>
+      </FireIntensity>
+      <Order>A B C P R V AE AO AQ</Order>
+    </Unit>
+    <Unit>
+      <Name>MG-40</Name>
+      <Side>2</Side>
+      <Type>A</Type>
+      <Price>13</Price>
+      <Count>2</Count>
+      <Defence>1</Defence>
+      <Ammunition>
+        <Ammo>10</Ammo>
+      </Ammunition>
+      <SpecialProperty>C D</SpecialProperty>
+      <Status>1(2) 2(1) 7 6(2)</Status>
+      <Image>8.jpg</Image>
+      <Accuracy>3 3 2 1</Accuracy>
+      <FireIntensity>
+        <A>9 5</A>
+        <B>9 4</B>
+        <C>8 4</C>
+        <D>2 1</D>
+        <E>2 1</E>
+        <F>1 1</F>
+        <H>3 2</H>
+      </FireIntensity>
+      <Order>A B C R V AE AO AN AL AM S T U</Order>
+    </Unit>
+    <Unit>
+      <Name>Miners</Name>
+      <Side>2</Side>
+      <Type>A</Type>
+      <Price>22</Price>
+      <Count>4</Count>
+      <Defence>1</Defence>
+      <Ammunition>
+        <Ammo>8</Ammo>
+        <Mine>1</Mine>
+      </Ammunition>
+      <SpecialProperty>D E</SpecialProperty>
+      <Status>1(2) 2(1) 7 6(2)</Status>
+      <Image>9.jpg</Image>
+      <Accuracy>3 2 1 1</Accuracy>
+      <FireIntensity>
+        <A>8 5 3 2</A>
+        <B>6 5 3 1</B>
+        <C>5 4 3 1</C>
+        <D>7 6 4 3</D>
+        <E>7 5 4 3</E>
+        <F>6 5 4 2</F>
+        <G>5 4 3 2</G>
+        <H>2 2 1 1</H>
+      </FireIntensity>
+      <Order>A B C P R V AL AM AE AG AK AC Z W X AN AO AA AD</Order>
+    </Unit>
+  <Unit>
+      <Name>Solders</Name>
+      <Side>2</Side>
+      <Type>A</Type>
+      <Price>12</Price>
+      <Count>5</Count>
+      <Defence>1</Defence>
+      <Ammunition>
+        <Ammo>10</Ammo>
+      </Ammunition>
+      <SpecialProperty>E</SpecialProperty>
+      <Status>1(1) 2(1) 7 6(2)</Status>
+      <Image>10.jpg</Image>
+      <Accuracy>2 2 1 1</Accuracy>
+      <FireIntensity>
+        <A>8 7 5 3 2</A>
+        <B>6 7 4 2 1</B>
+        <C>8 6 4 3 2</C>
+        <D>6 4 3 2 1</D>
+        <E>5 4 3 2 1</E>
+        <F>4 3 2 1 1</F>
+        <H>2 2 1 1 1</H>
+      </FireIntensity>
+      <Order>A B C P R V AL AM AE AG AN AO</Order>
+    </Unit>
+  </Units>
+  <Typies>
+    <Solders id ="A">Unit</Solders>
+    <Artilery id ="B">Unit</Artilery>
+    <Cars id ="C">Car</Cars>
+    <DefencedCars id ="D">Unit</DefencedCars>
+    <LightTank id ="E">Tank</LightTank>
+    <MidleTank id ="F">Tank</MidleTank>
+    <HeavyTank id ="G">Tank</HeavyTank>
+    <LightPlane id ="H">Plane</LightPlane>
+    <HeavyPlane id ="I">Plane</HeavyPlane>
+  </Typies>
+  <Statuses>
+    <UnderFire id ="1">int</UnderFire>
+    <InAmbush id="2">int</InAmbush>
+    <Towing id="3"></Towing>
+    <GetAmmo id="4"></GetAmmo>
+    <SetAmmo id="5"></SetAmmo>
+    <InDefence id="6">int</InDefence>
+    <InCar id="7"></InCar>
+  </Statuses>
+  <SpecialProperties>
+    <DestroyWall id ="A"></DestroyWall>
+    <FireInAction id ="B"></FireInAction>
+    <SectorFire id="C"></SectorFire>
+    <TankScream id="D"></TankScream>
+    <MineFinder id="E"></MineFinder>
+  </SpecialProperties>
+  <Orders>
+    <Defence id="A" time ="1"></Defence>
+    <StrongFire id="B" time ="2"></StrongFire>
+    <Fire id="C" time="3"></Fire>
+    <Smoke id="D" time="3"></Smoke>
+    <HelpToArtilery id="E" time="3"></HelpToArtilery>
+    <EndFly id="F" time="4"></EndFly>
+    <ReadyToFly id="G" time="4"></ReadyToFly>
+    <StartFly id="H" time="4"></StartFly>
+    <PlaneFire id ="I" time="4"></PlaneFire>
+    <PlaneAtack id="J" time="4"></PlaneAtack>
+    <FlyResearch id="K" time="4"></FlyResearch>
+    <Patrol id ="L" time="4"></Patrol>
+    <FlySupport id="M" time="4"></FlySupport>
+    <Landing id="N" time="4"></Landing>
+    <Supply id="O" time="4"></Supply>
+    <Atack id="P" time="5"></Atack>
+    <StrongAtck id="Q" time="5"></StrongAtck>
+    <Ambush id="R" time="6"></Ambush>
+    <ReadyToGo id="S" time="7"></ReadyToGo>
+    <ReadyToFire id="T" time="7"></ReadyToFire>
+    <ChangeFireSide id="U" time="7"></ChangeFireSide>
+    <Union id="V" time="7"></Union>
+    <SetMine id="W" time="7"></SetMine>
+    <GetMine id="X" time="7"></GetMine>
+    <DestroyObject id="Y" time ="7"></DestroyObject>
+    <DestroyTankDefence id="Z" time="7"></DestroyTankDefence>
+    <SetFire id="AA" time="7"></SetFire>
+    <Towing id="AB" time="7"></Towing>
+    <CreateBrige id="AC" time="7"></CreateBrige>
+    <DestroyForest id="AD" time="7"></DestroyForest>
+    <GetAmmo id="AE" time="7"></GetAmmo>
+    <SetAmmo id="AF" time="7"></SetAmmo>
+    <CreateDefence id="AG" time="7"></CreateDefence>
+    <Research id="AH" time="7"></Research>
+    <Repairs id="AI" time="7"></Repairs>
+    <Heal id="AJ" time="7"></Heal>
+    <DestroySolderDefence id="AK" time="7"></DestroySolderDefence>
+    <GetFromCar id="AL" time="7"></GetFromCar>
+    <SetInCar id="AM"  time="7"></SetInCar>
+    <FightAction id="AN" time="8"></FightAction>
+    <Action id="AO" time ="8"></Action>
+    <Wait id="AP" time="8"></Wait>
+    <ActionWithFire id="AQ" time="8"></ActionWithFire>
+    <SetToPlatform id="AR" time="8"></SetToPlatform>
+    <GetFromPlatform id="AS" time="8"></GetFromPlatform>
+  </Orders>
+</rules>

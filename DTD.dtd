@@ -1,0 +1,22 @@
+<!ELEMENT Units (Unit)>
+  <!ELEMENT Unit (Name, Side, Type, Price, Count, Defence, Ammunition, SpecialProperty, Status, Image, Accuracy, FireIntensity, Orders)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Side (#PCDATA)>
+    <!ELEMENT Type (#PCDATA)>
+    <!ELEMENT Price (#PCDATA)>
+    <!ELEMENT Count (#PCDATA)>
+    <!ELEMENT Defence (#PCDATA)>
+    <!ELEMENT Ammunition (Ammo, Mine)>
+      <!ELEMENT Ammo (#PCDATA)>
+      <!ELEMENT Mine (#PCDATA)>
+    <!ELEMENT SpecialProperty (#PCDATA)>
+    <!ELEMENT Status (#PCDATA)>
+    <!ELEMENT Image (#PCDATA)>
+    <!ELEMENT Accuracy (#PCDATA)>
+    <!ELEMENT FireIntensity (#PCDATA)>
+    <!ELEMENT Order (#PCDATA)>
+<!ELEMENT Typies (#PCDATA)>
+<!ELEMENT Statuses (#PCDATA)>
+<!ELEMENT SpecialProperties (#PCDATA)>
+<!ELEMENT Orders (#PCDATA)>
+<!ATTLIST rules name CDATA #REQUIRED>
